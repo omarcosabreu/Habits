@@ -10,7 +10,7 @@ form.addEventListener('change', save)
     const dayExists = nlwSetup.dayExists(today)
     
     if (dayExists) {
-      alert("Dia já registrado!")
+      alert("✋🏽Dia já registrado!")
       return
     }
 

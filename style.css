@@ -40,7 +40,7 @@ button:hover {
 
 form {
   display: flex;
-  padding: 182px 48px 48px;
+  padding: 242px 48px 48px;
   width: fit-content;
 }
 
@@ -53,10 +53,13 @@ form {
 
 .habit {
   display: flex;
-  font-size: 32px;
+  font-size: 30px;
+  color: #A78BFA;
+  text-transform: Uppercase;
   width: 64px;
   height: 64px;
   align-items: center;
+  text-align: center;
   justify-content: center;
 }
 
