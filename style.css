@@ -19,6 +19,10 @@ header {
   background-color: black;
 }
 
+.logo {
+  width: 255px;
+}
+
 button {
   border: 1px solid #8b5cf6;
   border-radius: 8px;
@@ -104,5 +108,6 @@ input:checked {
 @media (max-width: 570px) {
   button div {
     display: none;
+    margin-left:  -2px;
   }
 }
