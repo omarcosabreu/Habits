@@ -17,6 +17,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: black;
+  z-index: 1;
 }
 
 .logo {
@@ -49,7 +50,7 @@ button:hover {
 
 form {
   display: flex;
-  padding: 242px 48px 48px;
+  padding: 242px 24px 48px;
   width: fit-content;
 }
 
