@@ -58,6 +58,10 @@ form {
   flex-direction: column;
   gap: 24px;
   margin-top: 50px;
+
+  /* Aqui */
+  position: absolute;
+  left: 24px;
 }
 
 .habit {
@@ -75,7 +79,11 @@ form {
 .days {
   display: flex;
   gap: 48px;
-  margin-left: 32px;
+
+  /* Aqui */
+  margin-left: 100px;
+  overflow-x: auto;
+  width: calc(100vw - 213px);
 }
 
 .day {
@@ -121,7 +129,6 @@ footer {
 @media (max-width: 570px) {
   button div {
     display: none;
-    margin-left:  -2px;
+    margin-left: -2px;
   }
 }
-
